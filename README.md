@@ -5,11 +5,12 @@ Una interfaz gráfica a prueba de vagos con todas las funciones del script gener
 * [Python](https://www.Python.org/downloads) (3.10 o mayor)
 * PyQt5
   - Lo puedes instalar mediante `pip install PyQt5`
+* [keyframes.py](https://github.com/olivo28/Keyframes/blob/main/keyframes.py) (2.1.1 o mayor)
  
 El resto de dependencias se pueden ver en el repositorio mencionado arriba; pues son las del script base. O también el botón de "Comprobar dependencias" da un informe de los módulos o programas faltantes para el funcionamiento.
 
  # Cómo usar
-Básicamente solo se tiene que ejecutar el script `keyframes_GUI.py` en la misma carpeta que el script base [keyframes.py](https://github.com/olivo28/Keyframes/blob/main/keyframes.py), ya que uno carga al otro. 
+Básicamente solo se tiene que ejecutar el script `keyframes_GUI.py` en la misma carpeta que el script base `keyframes.py`, ya que uno carga al otro. 
 
 ![image](https://github.com/RcUchiha/Keyframes-GUI/assets/16442041/991357bc-8467-4698-9f5a-8e3e8292d30a)
 
