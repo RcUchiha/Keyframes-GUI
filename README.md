@@ -14,4 +14,4 @@ Básicamente solo se tiene que ejecutar el script `keyframes_GUI.py` en la misma
 
 ![image](https://github.com/RcUchiha/Keyframes-GUI/assets/16442041/991357bc-8467-4698-9f5a-8e3e8292d30a)
 
-El resto de la usabilidad se intuye con solo ver las opciones y los botones. Se pueden arrastrar o agregar videos, seleccionar la resolución de los mismos en "nivel de autismo", guardar los keyframes donde se prefiera, hacerlos compatibles con linux y seleccionar los diferentes métodos para usar WWXD, Scxvid o ambos. Al final solo le puchan a "¡GENERAR!" y bualá. 
+El resto de la usabilidad se intuye con solo ver las opciones y los botones. Se pueden arrastrar o agregar videos, seleccionar la resolución de los mismos en "nivel de autismo", guardar los keyframes donde se prefiera, hacerlos compatibles para linux y seleccionar los diferentes métodos para usar WWXD, Scxvid o ambos. Al final solo le puchan a "¡GENERAR!" y bualá. 
