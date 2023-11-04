@@ -13,5 +13,5 @@ El resto de dependencias se pueden ver en el repo mencionado arriba. O también 
 
  ![image](https://github.com/RcUchiha/Keyframes-GUI/assets/16442041/991357bc-8467-4698-9f5a-8e3e8292d30a)
 
- El resto es solo conocer las funciones del script base. Aunque mucho se intuye con solo ver las opciones y los botones. Se puede arrastrar o cargar un video, seleccionar la resolución de este en nivel de autismo, guardar donde se prefiera, hacer keyframes para linux
+ El resto es solo conocer las funciones del script base. Aunque mucho se intuye con solo ver las opciones y los botones. Se puede arrastrar o cargar un video, seleccionar la resolución de este en nivel de autismo, guardar donde se prefiera, hacer keyframes para linux y seleccionar los diferentes métodos para usar WWXD, Scxvid o ambos. 
 
