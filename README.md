@@ -1,5 +1,5 @@
 # Keyframes-GUI
-Una interfáz gráfica a prueba de vagos con todas las funciones del script generador de keyframes de [Olivo28](https://github.com/olivo28/Keyframes), para que no se quemen el coco o mueran en el intento de hacerlo en la terminal.
+Una interfaz gráfica a prueba de vagos con todas las funciones del script generador de keyframes de [Olivo28](https://github.com/olivo28/Keyframes), para que no se quemen el coco o mueran en el intento de hacerlo en la terminal.
 
 # Requerimientos
 * [Python](https://www.Python.org/downloads) (3.10 o mayor)
