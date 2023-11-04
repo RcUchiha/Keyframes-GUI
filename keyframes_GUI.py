@@ -2,12 +2,14 @@ import sys
 from PyQt5.QtWidgets import (QApplication, QMainWindow, QWidget, QLabel, QLineEdit, QPushButton, 
                              QFileDialog, QListWidget, QListWidgetItem, QVBoxLayout, QHBoxLayout, 
                              QMessageBox, QCheckBox, QComboBox)
+from PyQt5.QtCore import Qt, QMimeData
 import subprocess
 import os
 
 class KeyframeGeneratorApp(QMainWindow):
     def __init__(self):
         super().__init__()
+        self.setAcceptDrops(True)
 
         self.video_paths = []
         self.output_folder = ""
@@ -16,6 +18,23 @@ class KeyframeGeneratorApp(QMainWindow):
         self.linux_option = False
 
         self.init_ui()
+        
+    def dragEnterEvent(self, event):
+        mime_data = event.mimeData()
+        if mime_data.hasUrls() and any(url.isLocalFile() and url.toString().endswith(('.mp4', '.m2ts', '.mkv')) for url in mime_data.urls()):
+            event.acceptProposedAction()
+
+    def dropEvent(self, event):
+        mime_data = event.mimeData()
+        if mime_data.hasUrls():
+            video_paths = [url.toLocalFile() for url in mime_data.urls() if url.isLocalFile() and url.toString().endswith(('.mp4', '.m2ts', '.mkv'))]
+            for video_path in video_paths:
+                self.add_video(video_path)
+
+    def add_video(self, video_path):
+        self.video_paths.append(video_path)
+        item = QListWidgetItem(os.path.basename(video_path))
+        self.video_list.addItem(item)
 
     def init_ui(self):
         self.setWindowTitle("Generador de Keyframes")
